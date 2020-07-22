@@ -1,0 +1,85 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Segoe UI';
+}
+/** HEADER **/
+#header-nav {
+  background-color: #505050;
+
+
+}
+
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Segoe UI';
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1;
+  line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+/*END HEADER*/
+
+/* MAIN CONTENT */
+#menu-categories-title{
+	color: black;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+
+.box{
+  padding: 6px;
+  border: 3px solid black;
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+  background-color:grey;
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  position: relative;
+}
+.content{
+  color: black;
+  font-weight: bold;
+}
+.category-tile span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+}
+#chicken-tile, #beef-tile, #sushi-tile {
+  width: 100%;
+  padding: 20px;
+  background-color: #505050;
+  margin-bottom: 60px;
+  box-shadow: 0 0 30px #505050;
+  color: #ffffff;
+}
